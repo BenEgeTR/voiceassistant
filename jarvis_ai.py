@@ -17,18 +17,18 @@ reddit = "https://www.reddit.com"
 chillmusic = "https://www.youtube.com/watch?v=RLWcYADoV84"
 google = "https://www.google.com"
 whatsapp = "https://web.whatsapp.com"
-mathurl = "https://zoom.us/j/8336213784?pwd=VFVGbXZaekhMTEp6Z3dnZHo5RXhyUT09"
-scienceurl = "https://us02web.zoom.us/j/5434954272?pwd=ZFZZUTRicDQ2TW1uYVB0SWN4ZlROdz09"
-turkishurl = "https://us02web.zoom.us/j/8998357323?pwd=ZFVqeGpxR2hOdkJ4SjA1K1Q1RU5Cdz09"
-englishurl = "https://us02web.zoom.us/j/4820057951?pwd=bXZOMUhoOTNjN1V3MXVTMnJzRU4wQT09"
-vsurl = "https://us02web.zoom.us/j/5461783245?pwd=azl6c0pWUnk1Vjl2WDhmbWZaVFlpQT09"
-codeurl = "https://us02web.zoom.us/j/5135085726?pwd=RllaMUFzYUVDVEs5NStUblROcDlxdz09"
-germanurl = "https://zoom.us/j/3171772449?pwd=VEMzSk9EZUZFcXdiRlhnV2NTWExhUT09"
-guideurl = "https://zoom.us/j/3257859687?pwd=YkRFZm9XNy9jcXpJVThMZ1RvdzBNQT09"
-religionurl = "https://zoom.us/j/3287418527?pwd=UGhlZWxOMk51"
-lunarpath = "C:\\Users\\Egehan\\AppData\\Local\\Programs\\lunarclient\\Lunar Client.exe"
+mathurl = "[YOUR URL]"
+scienceurl = "[YOUR URL]"
+turkishurl = "[YOUR URL]"
+englishurl = "[YOUR URL]"
+vsurl = "[YOUR URL]"
+codeurl = "[YOUR URL]"
+germanurl = "[YOUR URL]"
+guideurl = "[YOUR URL]"
+religionurl = "[YOUR URL]"
+lunarpath = "[YOUR PATH]"
 cmdpath = "C:\\WINDOWS\\system32\\cmd.exe"
-codepath = "C:\\Users\\Egehan\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+codepath = "[YOUR PATH]"
 
 
 def takeCommand():
@@ -59,7 +59,7 @@ def note(text):
     with open(file_name, "w") as f:
         f.write(text)
 
-    vscode = "C:\\Users\\Egehan\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+    vscode = "[YOUR PATH]"
     subprocess.Popen([vscode, file_name])
 
 def play():
