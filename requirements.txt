@@ -1,0 +1,9 @@
+subprocess
+datetime
+pyttsx3
+speech_recognition
+os
+pywhatkit
+webbrowser
+pyjokes
+wikipedia
