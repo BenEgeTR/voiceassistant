@@ -3,4 +3,8 @@ a voice asisstant that makes your life easier for you! You can add more function
 
 How to use it?
 
-First of all install all the missing pips and you can just run the code.
+install all the required modules
+pip install requirements.txt 
+
+and run the code
+python jarviscommunityedition.py
